@@ -29,7 +29,7 @@ An **AI-powered assistant** that leverages **OCR, NLP, AI Agents, and Generative
 git clone https://github.com/yashita7/PharmaAI.git
 
 ### 2️⃣ Create a Virtual Environment
-python -m venv venv
+python -m venv venv <br>
 source venv/bin/activate  # On macOS/Linux <br>
 venv\Scripts\activate     # On Windows
 
