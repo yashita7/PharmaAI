@@ -29,9 +29,9 @@ An **AI-powered assistant** that leverages **OCR, NLP, AI Agents, and Generative
 git clone https://github.com/yashita7/PharmaAI.git
 
 ### 2️⃣ Create a Virtual Environment
--> python -m venv venv
--> source venv/bin/activate  # On macOS/Linux
--> venv\Scripts\activate     # On Windows
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux <br>
+venv\Scripts\activate     # On Windows
 
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -48,6 +48,6 @@ streamlit run frontend.py
 3. Generative AI provides structured analysis.
 
 ### Future Enhancements
--> 🚀 Integrate a chatbot for pharmacist queries
--> 🩺 Expand NLP to detect drug interactions
--> 📊 Generate prescription insights & summaries
+🚀 Integrate a chatbot for pharmacist queries  <br>
+🩺 Expand NLP to detect drug interactions <br>
+📊 Generate prescription insights & summaries <br>
