@@ -26,3 +26,28 @@ An **AI-powered assistant** that leverages **OCR, NLP, AI Agents, and Generative
 
 ## 📦 Installation  
 ### 1️⃣ Clone the Repository  
+git clone https://github.com/yashita7/PharmaAI.git
+
+### 2️⃣ Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+
+###3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 4️⃣ Set Up API Keys
+Create a **.env file** and add your API key:
+GEMINI_API_KEY=your_api_key_here
+
+### 🎯 Usage
+**Running the Assistant**
+streamlit run frontend.py
+1. Upload a prescription image.
+2. AI extracts text & identifies medicines.
+3. Generative AI provides structured analysis.
+
+### Future Enhancements
+🚀 Integrate a chatbot for pharmacist queries
+🩺 Expand NLP to detect drug interactions
+📊 Generate prescription insights & summaries
